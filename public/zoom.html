@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+div{
+    width: 100%;
+    height:750px;
+    overflow: hidden;
+    position: relative;
+
+}
+div img{
+    width: 100%;
+   ;
+  
+}
+.main-text{
+    text-align: center;
+    background-color: aliceblue;
+    color: red;
+}
+.main-text h2{
+    font-size: 60px;
+   
+    margin: 15px 0;
+}
+.main-text h3{
+    font-size: 16px;
+  
+}
+.main-text p{
+    font-size: 16px;
+    line-height: 35px;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="zoom"><img src="page/8f1115f1961d3d844ec39d9d528a6bc1--african-tribal-makeup-african-jewelry.jpg"></div>
+    <div class="main-text">
+          <h2>jghjbkjnkj</h2>
+          <h3>ftfjhgjh</h3>
+          <p>ghvjhbkjnklhbvtgjn,njhvyjnklmlkmkjbsknnmbbn  vhbkbyutojkhkgvjknvfgcvhctfjsydguhf
+bjhbdjhbjknkjndjknjnjnndjinbgyuhbbvgbvchnnxce;lla snnnns hhrh hhrhh shhh ehhhhe iii sjkenn shjhjkjk ejjknklknm s 
+            bjhbdjhbjknkjndjknjnjnndjinbgyuhbbvgbvchnnxce;lla snnnns hhrh hhrhh shhh ehhhhe iii sjkenn shjhjkjk ejjknklknm s 
+          </p>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+     
+    </script>
+    <script>
+         
+       $(window).scroll(function(){
+
+var scroll= $(window).scrollTop();
+$(".zoom img").css({
+ width: (100 + scroll/5)+ "%"
+
+})
+});
+    </script>
+</body>
+</html>
